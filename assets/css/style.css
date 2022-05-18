@@ -1,0 +1,66 @@
+/* Importación de fuente de uso Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+/* Reset y asignacion de propiedades base con Selector univeral*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+/* PROPIEDADES MEDIANTE CLASES & ETIQUETAS*/
+
+/* Propiedades para el cuerpo */
+body {
+  background-color: #000000;
+  color: #ffff;
+}
+
+/* Nav */
+nav img {
+  width: 32px;
+}
+.bg-cal {
+    background-color: #0ca8a8 ;
+}
+.cal {
+  border-top: 1px solid #0ca8a8;
+}
+
+/* Header */
+header .row {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+}
+header .card {
+  border: none;
+  background-color: #000000;
+}
+
+/* Section de Destacados */
+section .row .card .card-body {
+  background-color: #0ca8a8;
+}
+section .row .card img {
+  height: 163.67px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer i {
+  font-size: 1.75rem!important;
+  display: flex;
+  align-items: center;
+}
+
+/* MODAL*/
+.modal-title {
+  color: #0ca8a8;
+}
